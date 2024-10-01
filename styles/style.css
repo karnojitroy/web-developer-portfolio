@@ -107,7 +107,7 @@ nav li a:hover{
     margin-top: 200px;
 }
 #what-i-do{
-    padding: 0px 230px;
+    padding: 0px 400px;
 }
 .about-info-container{
     margin-top: 30px;
@@ -120,9 +120,39 @@ nav li a:hover{
 }
 .skills-container{
     display: flex;
-    margin-top: 50px;
+    gap: 24px;
+    margin-top: 20px;
     padding: 10px 150px;
 }
 .skill{
     padding: 40px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+}
+.resume-section{
+    margin-top: 150px;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 70px 150px;
+}
+.resume-col-title{
+    margin-bottom: 40px;
+}
+.resume-item{
+    margin-top: 40px;
+    padding-right: 150px;
+}
+.resume-item-title{
+    margin: 10px 0px;
+}
+.resume-item-subtitle{
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item-description{
+    color: #5f5d5d;
 }
